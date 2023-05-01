@@ -21,7 +21,7 @@
  
      @BeforeAll
      public static void setUpClass() {
-     }
+    
  
      @AfterAll
      public static void tearDownClass() {
@@ -41,7 +41,7 @@
      // @Test
      // public void hello() {}
      @Test
-     public void testEsPare() {
+     public void testEsPar() {
          assertTrue(NumeroPar.esPar(2), "el 2 és parell");
          assertFalse(NumeroPar.esPar(3), "el 3 és imparell");
          assertTrue(NumeroPar.esPar(0), "el 0 és parell");
